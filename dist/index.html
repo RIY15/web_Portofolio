@@ -13,7 +13,7 @@
         <div class="container">
             <div class="flex items-center justify-between relative ">
                 <div class="px-4">
-                    <a href="#home" class="text-sky-600 font-bold block py-6">Richard Yohanes</a>
+                    <a href="#home" class="text-sky-600 font-bold block py-6 text-lg lg:text-2xl md:text-xl">Richard Yohanes</a>
                 </div>
                 
                 <div class="relative flex items-center px-4 lg:w-1/2">
@@ -44,14 +44,16 @@
      </header>
 
 
-    <!-- Hero Section -->
-    <section id= "Home" class="pt-36">
+    <!-- Home Section -->
+    <section id= "home" class="pt-36">
         <div class="container">
             <div class="flex flex-wrap px-8">
 
                 <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class=" text-sky-400 md:text-xl">Hello Everyone 👋, I'm <span class="font-mono text-4xl block font-bold text-slate-900 up">Richard Yohanes</span></h1>
-                    <h2 class="mb-5 text-xl lg:text-2xl u">Undergraduate student at Binus University</h2>
+                    <h1 class=" text-sky-400 md:text-xl mb-4">Hello Everyone 👋, I'm 
+                        <span class="font-mono text-4xl block font-bold text-slate-900 up" id="typewriter"></span>
+                        <span class="animate-blink font-mono text-4xl block font-bold text-slate-900 cursor" id="cursor">|</span>
+                    </h1>
                     <p class="font-medium text-slate-400 mb-10 leading-relaxed text-lg lg:text-xl"> I am particularly interested in front-end development, where I aim to create impactful user experiences and connected systems. As I continue to grow my skills in these areas,</p>
 
                     <div class="flex items-center">
@@ -101,14 +103,12 @@
      <section id="about" class="pt-36">
         <div class="container">
             <div class="px-8 flex flex-wrap pb-10">
-                <div class="w-full lg:w-1/2">
+                <div class="w-full lg:w-3/4">
                     <h2 class="text-sky-500 text-lg uppercase font-bold">About Me</h2>
-                    <div class="border shadow-lg rounded-xl px-3 group hover:bg-sky-500 pb-2">
-                        <P class="py-2 text-slate-900 group-hover:text-white">Hello! I’m Richard Yohanes, a 20-year-old Computer Science student at Binus Bandung University, currently in my 5th semester. While my primary focus is on Internet of Things (IoT), I also have a growing passion for front-end development. I love creating intuitive and visually engaging user interfaces that provide seamless experiences</P>
-                        <h3 class="font-semibold text-lg group-hover:text-white">Education</h3>
-
-
-                        <ol class="list-inside list-disc pl-3 group-hover:text-white">
+                    <div class=" rounded-xl px-3 group pb-2">
+                        <P class="py-2 text-slate-600 text-base">Hello! I’m Richard Yohanes, a 20-year-old Computer Science student at Binus Bandung University, currently in my 5th semester. While my primary focus is on Internet of Things (IoT), I also have a growing passion for front-end development. I love creating intuitive and visually engaging user interfaces that provide seamless experiences</P>
+                        <h3 class="font-semibold text-lg text-slate-600">Education</h3>
+                        <ol class="list-inside list-disc pl-3 text-slate-600 ">
                             <li>SMP Xaverius 2 Jambi (2016-2019)</li>
                             <li>SMAN 5 Kota Jambi (2019-2022)</li>
                             <li>Binus University (2022 - now)</li>
@@ -116,38 +116,107 @@
                     </div>
                 </div>
                 
-                <div class="mt-7 px-4 w-full lg:w-1/2 border shadow-lg rounded-xl">
-                    <h3 class="font-semibold">My Skill</h3>
-                    <ol>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                    </ol>
-                </div>
+                <div class="mt-7 px-4 w-full lg:w-3/4 ">
+                    <h3 class="font-semibold text-xl">Skill</h3>
+                    <div class="w-full mb-6">
 
+                        <div class="p-4 ">
+                            <h3>Front-End (HTML,Tailwind, js)</h3>
+                            <div class="h-8 rounded-full border border-slate-400 shadow-xl mt-2 flex flex-wrap">
+                                <div class="h-8 rounded-full border border-slate-400 bg-orange-300 w-3/4"></div>
+                                <h4 class="ml-4 text-slate-400">7/10</h4>
+                            </div>
+                        </div>
+
+                        <div class="w-full">
+                            <div class="p-4 ">
+                                <h3>Android Studio (Java)</h3>
+                                <div class="h-8 rounded-full border border-slate-400 shadow-xl mt-2 flex flex-wrap">
+                                    <div class="h-8 rounded-full border border-slate-400 bg-green-300 w-2/3"></div>
+                                    <h4 class="ml-4 text-slate-400">6/10</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-full">
+                            <div class="p-4 ">
+                                <h3>Arduino</h3>
+                                <div class="h-8 rounded-full border border-slate-400 shadow-xl mt-2 flex flex-wrap">
+                                    <div class="h-8 rounded-full border border-slate-400 bg-purple-300 w-2/3"></div>
+                                    <h4 class="ml-4 text-slate-400">6/10</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-full"></div>
+                            <div class="p-4 ">
+                                <h3>PHP , mySQL</h3>
+                                <div class="h-8 rounded-full border border-slate-400 shadow-xl mt-2 flex flex-wrap">
+                                    <div class="h-8 rounded-full border border-slate-400 bg-red-300 w-1/2"></div>
+                                    <h4 class="ml-4 text-slate-400">5/10</h4>
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
+
         </div>
      </section>
 
      <!-- Portofolio Section -->
-      <section id="Portofolio" class="pt-36 pb-18 bg-slate-100">
+      <section id="portofolio" class="pt-36 pb-18 bg-slate-100">
             <div class="container ">
 
                 <div class="w-full px-4">
                     <div class="max-w-xl mx-auto text-center mb-16">
                         <h4 class="text-sky-600 font-semibold text-lg mb-2">Portofolio</h4>
                         <h2 class="text-3xl mb-4 font-bold"> Projet Terbaru</h2>
-                        <p class="text-base text-slate-900 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime quaerat obcaecati cum aperiam quia iusto facilis, nihil rem unde?</p>
+                        <p class="text-base text-slate-600 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime quaerat obcaecati cum aperiam quia iusto facilis, nihil rem unde?</p>
                     </div>
                 </div>
 
-                <div class="w-full flex flex-wrap justify-center">
-                    <div class="mb-12 p-4">
-                        <div class="">
+                <div class="w-full flex flex-wrap justify-center px-4 xl:w-10/12 xl:mx-auto xl:px-16">
 
+                    <div class="mb-8 p-4 md:w-1/2 hover:scale-105 transition-transform">
+                        <div class="rounded-lg overflow-hidden shadow-md h">
+                            <img src="./img/project_LoCam.png"  alt="LoCam">
+                        </div>
+                        <div class="px-4 py-2 shadow-lg rounded-lg bg-slate-200">
+                            <h3 class="font-bold mt-5 mb-3">LoCam (Location and Camera)</h3>
+                            <p class="text-slate-600 text-base font-medium">ProjectLC is an Android application designed to make it easier for users to take and save photos automatically. By using the device's internal storage, ProjectLC not only saves the image, but also displays important information details such as location and time of capture (time stamp). This application using Android Studio with Java programming Language</p>
                         </div>
                     </div>
+
+                    <div class="mb-8 p-4 md:w-1/2 hover:scale-105 transition-transform">
+                        <div class="rounded-lg overflow-hidden shadow-md ">
+                            <img src="./img/project_Agv.png"  alt="Automated Guided Vehicle">
+                        </div>
+                        <div class="px-4 py-2 shadow-lg rounded-lg bg-slate-200">
+                            <h3 class="font-bold mt-5 mb-3">Automated Guided Vehicle (AGV)</h3>
+                            <p class="text-slate-600 text-base font-medium mb-14">This project aims to develop an Embedded System-based solution that combines robotic technology in the form of an Automated Guided Vehicle (AGV) to overcome the problem of moving goods.</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-8 p-4 md:w-1/2 hover:scale-105 transition-transform">
+                        <div class="rounded-lg overflow-hidden shadow-md">
+                            <img src="./img/project_Ar.jpg"  alt="Augmented Reality">
+                        </div>
+                        <div class="px-4 py-2 shadow-lg rounded-lg bg-slate-200">
+                            <h3 class="font-bold mt-5 mb-3">Augmented Reality</h3>
+                            <p class="text-slate-600 text-base font-medium mb-14">This AR application was created with the aim of getting to know the history of landmarks in Indonesia. This application was created using Unity and Vuforia Engine</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-8 p-4 md:w-1/2 hover:scale-105 transition-transform">
+                        <div class="rounded-lg overflow-hidden shadow-md">
+                            <img src="./img/project_RentalMobil.png"  alt="RentalMobil">
+                        </div>
+                        <div class="px-4 py-2 shadow-lg rounded-lg bg-slate-200">
+                            <h3 class="font-bold mt-5 mb-3">Car Rental (Database)</h3>
+                            <p class="text-slate-600 text-base font-medium mb-10">Car rental database application is a platform designed to facilitate the management and monitoring of operations in the car rental business. This application is made using php and mySQL</p>
+                        </div>
+                    </div>
+                    
                 </div>
 
             </div>
